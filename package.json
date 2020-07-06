@@ -1,0 +1,38 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "this is a blog for study and life.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh",
+    "main": "bash main.sh",
+    "build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmx2321/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmx2321/blog/issues"
+  },
+  "homepage": "https://github.com/zmx2321/blog#readme",
+  "dependencies": {
+    "@antv/g6": "^3.4.1",
+    "cross-env": "^7.0.2",
+    "echarts": "^4.6.0",
+    "element-ui": "^2.13.0",
+    "insert-css": "^2.0.0",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "vuepress-plugin-comment": "^0.7.3"
+  }
+}

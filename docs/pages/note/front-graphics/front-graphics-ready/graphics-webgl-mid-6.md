@@ -1,0 +1,1 @@
+# vertexAttriPointer()的步进和偏移参数
