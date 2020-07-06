@@ -4,7 +4,7 @@ heroImage: /logo.png
 heroText: zmx的前端日志
 tagline: 欢迎访问我的前端日志
 actionText: 开始阅读 →
-actionLink: pages/note/
+actionLink: pages/
 features:
 - title: 学习
   details: 历史挑定我们学习的路子，我们必是要不断坚持下去 。

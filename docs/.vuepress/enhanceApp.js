@@ -6,11 +6,11 @@
  * 引入组件
  */
 // 引入ui组件
-import ElementUI from 'element-ui'  // 引入element-ui
-import 'element-ui/lib/theme-chalk/index.css'
+// import ElementUI from 'element-ui'  // 引入element-ui
+// import 'element-ui/lib/theme-chalk/index.css'
 
 // 引入图表组件
-import echarts from 'echarts'
+// import echarts from 'echarts'
 
 /**************************************************************/
 /**
@@ -61,7 +61,7 @@ export default ({
       /**
        * 全局挂载
        */
-      Vue.prototype.$echarts = echarts;  // 全局挂载图表插件
+      // Vue.prototype.$echarts = echarts;  // 全局挂载图表插件
 
       /**
        * 业务功能模块

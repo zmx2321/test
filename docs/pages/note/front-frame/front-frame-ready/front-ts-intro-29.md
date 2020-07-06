@@ -1,1 +1,0 @@
-# TypeScript模块-泛型类
