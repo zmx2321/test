@@ -56,7 +56,7 @@ export default ({
       /**
        * 全局注册
        */
-      Vue.use(ElementUI);  // 全局注册ui组件
+      // Vue.use(ElementUI);  // 全局注册ui组件
 
       /**
        * 全局挂载
